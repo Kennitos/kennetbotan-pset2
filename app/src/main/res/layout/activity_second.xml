@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.kennet.madlips.SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Choose a story from the following options:"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioRandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioChecked"
+            android:text="@string/random"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple"
+            android:onClick="radioChecked" />
+        <RadioButton
+            android:id="@+id/radioTarzan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tarzan"
+            android:onClick="radioChecked" />
+        <RadioButton
+            android:id="@+id/radioUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/university"
+            android:onClick="radioChecked" />
+        <RadioButton
+            android:id="@+id/radioClothes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clothes"
+            android:onClick="radioChecked" />
+        <RadioButton
+            android:id="@+id/radioDance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dance"
+            android:onClick="radioChecked" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="goToThird"
+        android:text="@string/select"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="visible" />
+
+</LinearLayout>

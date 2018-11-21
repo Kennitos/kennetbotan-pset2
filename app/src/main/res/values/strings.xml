@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MadLips</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="start">"GET STARTED!"</string>
+
+    <string name="simple">"Simple"</string>
+    <string name="tarzan">"Tarzan"</string>
+    <string name="university">"University"</string>
+    <string name="clothes">"Clothes"</string>
+    <string name="dance">"Dance"</string>
+    <string name="random">"Random"</string>
+    <string name="select">"Select"</string>
+
+    <string name="ok">"OK"</string>
+    <string name="complete">"Complete"</string>
+</resources>
