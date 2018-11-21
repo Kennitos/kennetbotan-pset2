@@ -8,4 +8,4 @@ het eindverhaal. Op elk moment tijdens het gebruik kan de gebruiker terug naar d
 
 <i>Sidenote - ik maak gebruik van de layout/content_main.xml en land/content_main.xml. Je moet niet kijken naar main_activity.xml</i>
 
-<img src=""><img src=""><img src="">
+<img src="" width="275" height="490"><img src="" width="275" height="490"><img src="" width="275" height="490">
