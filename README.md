@@ -5,3 +5,7 @@ categorieen pagina, op deze pagina kan de gebruiker kiezen wat voor thema het ve
 woorden als input geven. De applicatie geeft aan wat voor woord hij/zij moet invullen (bijv. noun of adjective) en geeft het aan hoeveel worden
 er resterend zijn (om in te vullen). Nadat er resterend aantal van 0 woorden is, wordt de gebruiker direct doorgestuurd naar de pagina met
 het eindverhaal. Op elk moment tijdens het gebruik kan de gebruiker terug naar de hoofdpagina door op de terugknop te drukken.
+
+<i>Sidenote - ik maak gebruik van de layout/content_main.xml en land/content_main.xml. Je moet niet kijken naar main_activity.xml</i>
+
+<img src=""><img src=""><img src="">
