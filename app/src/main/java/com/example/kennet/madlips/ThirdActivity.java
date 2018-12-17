@@ -96,8 +96,9 @@ public class ThirdActivity extends AppCompatActivity {
         word.setHint(testStory.getNextPlaceholder());
         word.setText("");
 
-        TextView dubbeltest = findViewById(R.id.textView3);
-        dubbeltest.setText(testStory.toString());
+// put text in a textview to see the progressions, set the visibility to none
+//        TextView dubbeltest = findViewById(R.id.textView3);
+//        dubbeltest.setText(testStory.toString());
 
         if (testStory.getPlaceholderRemainingCount()==0) {
             Log.d("testcount","count: OVER");
