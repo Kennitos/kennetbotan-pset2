@@ -8,6 +8,8 @@ het eindverhaal. Op elk moment tijdens het gebruik kan de gebruiker terug naar d
 
 <i>Sidenote - ik maak gebruik van de layout/content_main.xml en land/content_main.xml. Je moet niet kijken naar main_activity.xml</i>
 
+<br><i>Extra</i>
+<br>De ingevulde worden worden duidelijker aangeven met een bold
 <p float="left">
     <img src="https://github.com/Kennitos/kennetbotan-pset2/blob/master/madlip2.png" width="275" height="490">
   <img src="https://github.com/Kennitos/kennetbotan-pset2/blob/master/madlip_img.png" width="275" height="490">
